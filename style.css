@@ -1,0 +1,31 @@
+body {
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #50C878;
+    height: 250px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: black;
+    text-align: center;
+}
