@@ -1,0 +1,54 @@
+body {
+    background-color: #9E4A2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #C46A3A;
+    height: 250px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #EDE3D0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #EDE3D0;
+    text-align: center;
+}
+
+.excellent {
+    color: blue;
+    font-weight: bold;
+}
+
+.passed {
+    color: green;
+    font-weight: bold;
+}
+
+.failed {
+    color: red;
+    font-weight: bold;
+}
+
+.invalid-score {
+    color: orange;
+    font-weight: bold;
+}
+
+
